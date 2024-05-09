@@ -1,0 +1,70 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body {
+    background-image: linear-gradient(to right, #8c52ff, #00bf63);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #8c52ff;
+    background-attachment: fixed;
+   
+}
+
+.gif img {
+    width: 491.4px;
+    height: 500px;
+    position: absolute;
+    left: 8px;
+    top: 30px;
+}
+
+.white-box {
+    position: absolute;
+    width: 226.6px;
+    height: 34.2px;
+    background-color: white;
+    left: 860.4px;
+    top: 38.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-box-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 850;
+    font-size: 17px;
+    color: #DF608F;
+    letter-spacing: 8px;
+}
+
+.transparent-box {
+    position: absolute;
+    width: 713.8px;
+    height: 102px;
+    left: 600px;
+    top: 94.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent-box-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #00233D;
+}
