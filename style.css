@@ -20,43 +20,43 @@ body {
     background-position: center;
     background-color: #8c52ff;
     background-attachment: fixed;
-   
 }
 
 .gif img {
-    width: 491.4px;
-    height: 500px;
+    width: 531.4px;
+    height: 540px;
     position: absolute;
-    left: 8px;
-    top: 30px;
+    left: 68px;
+    top: 80px; 
 }
 
 .white-box {
     position: absolute;
-    width: 226.6px;
-    height: 34.2px;
+    width: 250px;
+    height: 40px;
     background-color: white;
-    left: 860.4px;
-    top: 38.9px;
+    left: 900.4px;
+    top: 68.9px; 
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 24px;
 }
 
 .white-box-text {
     font-family: 'DM Sans', sans-serif;
     font-weight: 850;
-    font-size: 17px;
+    font-size: 20px;
     color: #DF608F;
     letter-spacing: 8px;
 }
 
 .transparent-box {
     position: absolute;
-    width: 713.8px;
-    height: 102px;
-    left: 600px;
-    top: 94.2px;
+    width: 740px;
+    height: 120px;
+    left: 645px;
+    top: 120.2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +65,159 @@ body {
 .transparent-box-text {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 86px;
     color: #00233D;
+}
+
+.introduction-box {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    right: 450px;
+    top: 235.2px;
+    background-color: #c1ff72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.introduction-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #00233D;
+    text-decoration: none;
+}
+
+.feature-box.Text-Summarization {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 730px;
+    top: 295.2px;
+    background-image: linear-gradient(to right, #52a2ff 0%, #3dff3f 50%, #ffc33d 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.feature-box.Sentimental-Analysis {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 730px;
+    top: 360.2px;
+    background-image: linear-gradient(to right, #52a2ff 0%, #3dff3f 50%, #ffc33d 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.feature-box.Machine-Translation {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    left: 730px;
+    top: 425.2px;
+    background-image: linear-gradient(to right, #52a2ff 0%, #3dff3f 50%, #ffc33d 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.feature-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00233D;
+    text-align: center;
+    text-decoration: none;
+}
+
+.feature-detail.Text-Summarization {
+    position: absolute;
+    width: 400px;
+    height: 52px;
+    left: 930px;
+    top: 295.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-detail.Sentimental-Analysis {
+    position: absolute;
+    width: 400px;
+    height: 52px;
+    left: 930px;
+    top: 360.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-detail.Machine-Translation {
+    position: absolute;
+    width: 400px;
+    height: 52px;
+    left: 930px;
+    top: 425.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-detail-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00233D;
+    text-align: center;
+    text-decoration: none;
+}
+
+.source-detail {
+    position: absolute;
+    width: 324px;
+    height: 39px;
+    left: 864px;
+    top: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.source-detail-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00233D;
+    text-align: center;
+    text-decoration: none;
+}
+
+.QA-box {
+    position: absolute;
+    width: 86px;
+    height: 58px;
+    left: 1207px;
+    top: 550px;
+    background-image: linear-gradient(to right, #fff7ad 0%, #ffa9f9 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.QA-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #004b84;
+    text-align: center;
+    text-decoration: none;
 }
