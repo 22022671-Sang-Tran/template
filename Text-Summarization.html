@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="static/css/TS-style.css">
-    <link rel="stylesheet" type="text/css" href="static/css/TS-text-style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/feature-style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/feature-text-style.css">
     <title>Text Summarization</title>
   </head>
   <body>
     <section class="grid-section">
       <div class="feature-box">
         <div class="homepage-logo">
-          <a class="logo" href="homepage.html">
+          <a class="logo" href="Homepage.html">
             <img src="static\images\homepage.png" alt="Logo">
           </a>
         </div>
@@ -44,23 +44,22 @@
     </section>
     <script>
       function performAction() {
-    // Thực hiện hành động của bạn ở đây
-    var inputText = document.getElementById('input').value;
-    // Ví dụ: Hiển thị văn bản đầu vào trong hộp bên dưới
-    var outputTextElement = document.getElementById('output-text');
-    outputTextElement.innerText = inputText;
-    
-    // Kiểm tra nếu textarea trống
-    if (inputText.trim() === "") {
-        // Nếu trống, hiển thị lại placeholder text
-        outputTextElement.innerText = "Your output here.";
-        outputTextElement.classList.add('placeholder-text');
-    } else {
-        // Nếu không trống, hiển thị văn bản từ textarea
+        // Thực hiện hành động của bạn ở đây
+        var inputText = document.getElementById('input').value;
+        // Ví dụ: Hiển thị văn bản đầu vào trong hộp bên dưới
+        var outputTextElement = document.getElementById('output-text');
         outputTextElement.innerText = inputText;
-        outputTextElement.classList.remove('placeholder-text');
-    }
-}
+        // Kiểm tra nếu textarea trống
+        if (inputText.trim() === "") {
+          // Nếu trống, hiển thị lại placeholder text
+          outputTextElement.innerText = "Your output here.";
+          outputTextElement.classList.add('placeholder-text');
+        } else {
+          // Nếu không trống, hiển thị văn bản từ textarea
+          outputTextElement.innerText = inputText;
+          outputTextElement.classList.remove('placeholder-text');
+        }
+      }
     </script>
   </body>
 </html>
