@@ -19,6 +19,7 @@ body {
   }
   
   .transparent-box-text {
+    white-space: nowrap;
     font-family: "Poppins", sans-serif;
     text-overflow: ellipsis;
     position: relative;
@@ -28,6 +29,7 @@ body {
   }
   
   .introduction-button {
+    white-space: nowrap;
     width: 120px;
     height: 30px;
     font-family: "Poppins", sans-serif;
@@ -43,6 +45,7 @@ body {
   }
   
   .feature-button {
+    white-space: nowrap;
     width: 170px;
     height: 52px;
     position: relative;
@@ -66,21 +69,25 @@ body {
   
   .feature-detail-text {
     font-family: "Poppins", sans-serif;
+    position: relative;
     font-weight: bold;
     font-size: 16px;
     color: #1e191b;
     text-decoration: none;
-    border-radius: 24px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    text-align: justify; 
     align-items: center;
+    white-space: nomal;
+    overflow: visible;
   }
   
   .QA-button {
     font-family: "Poppins", sans-serif;
+    white-space: nowrap;
     position: relative;
     font-weight: bold;
-    top: 5px;
+    top: 10%;
     font-size: 16px;
     color: #00233d;
     text-decoration: none;
@@ -89,7 +96,9 @@ body {
   }
   
   .source-detail-text {
+    white-space: nowrap;
     font-family: "Poppins", sans-serif;
+    position: relative;
     font-weight: bold;
     font-size: 20px;
     margin-top: 5px;

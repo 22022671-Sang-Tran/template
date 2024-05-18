@@ -40,16 +40,18 @@ body {
 }
 
 .gif img {
-  width: 531.4px;
-  height: 540px;
+  width: 55%px;
+  height: 75%;
   position: sticky;
-  left: 68px;
-  top: 80px;
+  left: 10%;
+  top: 10%;
 }
 
 .top-box {
   display: grid;
   grid-template-columns: 1;
+  width: 100%;
+  height: 100%;
   grid-template-rows: 4fr 4fr 1fr;
   grid-gap: 1px;
   grid-template-areas:
@@ -60,6 +62,8 @@ body {
 }
 
 .white-box {
+  width: 100%;
+  height: 100%;
   grid-area: white-box;
   justify-content: center;
   align-items: center;
@@ -69,6 +73,8 @@ body {
 
 .transparent-box {
   grid-area: transparent-box;
+  top: 15%;
+  left: 46%;
   position: sticky;
   display: grid;
   justify-content: center;
@@ -88,7 +94,9 @@ body {
 .feature-box {
   display: grid;
   grid-area: feature-box;
-  position: Static;
+  position: static;
+  width: 100%;
+  height: 100%;
   grid-template-columns: 1fr 8fr;
   grid-template-rows: repeat(3, 1);
   grid-gap: 25px;
@@ -127,7 +135,10 @@ body {
 .bot-box {
   grid-area: bot-box;
   display: grid;
+  position: static;
+  margin: 0 auto;
   grid-template-columns: 3fr 4fr 3fr;
+  max-width: 600px;
 }
 
 .source-detail {
@@ -138,6 +149,7 @@ body {
   position: relative;
   background-image: linear-gradient(to right, #fff7ad 0%, #ffa9f9 100%);
   grid-column: 3;
+  left: 10%;
   width: 72px;
   height: 32px;
   justify-content: center;

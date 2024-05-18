@@ -118,3 +118,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.qa-container {
+  grid-template-columns: 1/ span 2;
+  margin-top: 2%;
+}

@@ -109,4 +109,28 @@ body {
   a:hover {
     text-decoration: underline;
   }
-  
+
+  /* Căn giữa tiêu đề Q&A */
+.qa-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+/* Định dạng cho bảng Q&A */
+.qa-table {
+  width: 80%; /* Độ rộng của bảng */
+  margin: 0 auto; /* Căn giữa bảng */
+  border-collapse: collapse; /* Gộp đường viền của các ô */
+}
+
+.qa-table th,
+.qa-table td {
+  border: 1px solid #ccc; /* Đường viền của các ô */
+  padding: 10px; /* Khoảng cách nội dung với đường viền */
+}
+
+/* Định dạng cho các câu hỏi */
+.qa-table th {
+  font-weight: bold; /* Đậm chữ */
+}
